@@ -1,0 +1,207 @@
+!SESSION 2026-10-01 10:23:11.272 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-01 10:23:57.205
+!MESSAGE Log4j2 initialized with config file C:\Users\gjvid\Documents\GitHub\ENSEA_3ESE_embprog_perso\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-01 10:24:01.559
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-10-01 10:24:08.619
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM8
+COM7
+COM9
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-10-01 10:24:08.620
+!MESSAGE port: COM8
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-10-01 10:24:08.621
+!MESSAGE port: COM7
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-10-01 10:24:08.622
+!MESSAGE port: COM9
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-10-01 10:24:53.926
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description for project 'TD3' at 'file:/C:/Users/gjvid/Documents/GitHub/ENSEA_3ESE_embprog_perso/td3' 
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:219)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1398)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1443)
+	at org.eclipse.cdt.core.CProjectNature.addNature(CProjectNature.java:81)
+	at org.eclipse.cdt.core.CProjectNature.addCNature(CProjectNature.java:47)
+	at org.eclipse.cdt.core.CCorePlugin$1.run(CCorePlugin.java:949)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.cdt.core.CCorePlugin.createCProject(CCorePlugin.java:931)
+	at com.st.stm32cube.ide.cmake.utils.CMakeUtils.createBaseCdtProject(CMakeUtils.java:234)
+	at com.st.stm32cube.ide.cmake.utils.CMakeUtils$CmakeProjectSetupTask.run(CMakeUtils.java:106)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: OK
+Contains: C:\Users\gjvid\Documents\GitHub\ENSEA_3ESE_embprog_perso\td3 overlaps the location of another project: 'td3'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2026-10-01 10:24:53.927
+!MESSAGE Invalid project description for project 'TD3' at 'file:/C:/Users/gjvid/Documents/GitHub/ENSEA_3ESE_embprog_perso/td3' 
+!SUBENTRY 2 unknown 0 0 2026-10-01 10:24:53.927
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2026-10-01 10:24:53.927
+!MESSAGE C:\Users\gjvid\Documents\GitHub\ENSEA_3ESE_embprog_perso\td3 overlaps the location of another project: 'td3'
+
+!ENTRY org.eclipse.core.resources 4 77 2026-10-01 10:24:55.714
+!MESSAGE Invalid project description for project 'TD3' at 'file:/C:/Users/gjvid/Documents/GitHub/ENSEA_3ESE_embprog_perso/td3' 
+!SUBENTRY 1 unknown 0 0 2026-10-01 10:24:55.714
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2026-10-01 10:24:55.714
+!MESSAGE C:\Users\gjvid\Documents\GitHub\ENSEA_3ESE_embprog_perso\td3 overlaps the location of another project: 'td3'
+
+!ENTRY com.st.stm32cube.ide.cmake 4 0 2026-10-01 10:24:55.748
+!MESSAGE Failed to setup project
+!STACK 0
+java.lang.Exception: Project setup failed
+	at com.st.stm32cube.ide.cmake.utils.CMakeUtils$CmakeProjectSetupTask.run(CMakeUtils.java:123)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2026-10-01 10:25:01.600
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.io.File.<init>(File.java:278)
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:80)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2026-10-01 10:25:01.604
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2026-10-01 10:25:01.604
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.io.File.<init>(File.java:278)
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:80)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-10-01 10:26:28.677
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description for project 'TD4' at 'file:/C:/Users/gjvid/Documents/GitHub/ENSEA_3ESE_embprog_perso/td4' 
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:219)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1398)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1443)
+	at org.eclipse.cdt.core.CProjectNature.addNature(CProjectNature.java:81)
+	at org.eclipse.cdt.core.CProjectNature.addCNature(CProjectNature.java:47)
+	at org.eclipse.cdt.core.CCorePlugin$1.run(CCorePlugin.java:949)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.cdt.core.CCorePlugin.createCProject(CCorePlugin.java:931)
+	at com.st.stm32cube.ide.cmake.utils.CMakeUtils.createBaseCdtProject(CMakeUtils.java:234)
+	at com.st.stm32cube.ide.cmake.utils.CMakeUtils$CmakeProjectSetupTask.run(CMakeUtils.java:106)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: OK
+Contains: C:\Users\gjvid\Documents\GitHub\ENSEA_3ESE_embprog_perso\td4 overlaps the location of another project: 'td4'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2026-10-01 10:26:28.677
+!MESSAGE Invalid project description for project 'TD4' at 'file:/C:/Users/gjvid/Documents/GitHub/ENSEA_3ESE_embprog_perso/td4' 
+!SUBENTRY 2 unknown 0 0 2026-10-01 10:26:28.677
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2026-10-01 10:26:28.677
+!MESSAGE C:\Users\gjvid\Documents\GitHub\ENSEA_3ESE_embprog_perso\td4 overlaps the location of another project: 'td4'
+
+!ENTRY org.eclipse.core.resources 4 77 2026-10-01 10:26:29.233
+!MESSAGE Invalid project description for project 'TD4' at 'file:/C:/Users/gjvid/Documents/GitHub/ENSEA_3ESE_embprog_perso/td4' 
+!SUBENTRY 1 unknown 0 0 2026-10-01 10:26:29.233
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2026-10-01 10:26:29.233
+!MESSAGE C:\Users\gjvid\Documents\GitHub\ENSEA_3ESE_embprog_perso\td4 overlaps the location of another project: 'td4'
+
+!ENTRY com.st.stm32cube.ide.cmake 4 0 2026-10-01 10:26:29.257
+!MESSAGE Failed to setup project
+!STACK 0
+java.lang.Exception: Project setup failed
+	at com.st.stm32cube.ide.cmake.utils.CMakeUtils$CmakeProjectSetupTask.run(CMakeUtils.java:123)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-10-01 10:29:24.418
+!MESSAGE Indexed 'td4' (37 sources, 82 headers) in 3.37 sec: 9,886 declarations; 41,039 references; 42 unresolved inclusions; 872 syntax errors; 16,058 unresolved names (24%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-10-01 10:29:31.472
+!MESSAGE Error: Cannot run program "make": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "make": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:458)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:147)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:134)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory$Builder.start(ProcessFactory.java:275)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:361)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:189)
+	at org.eclipse.cdt.core.CommandLauncherManager$CommandLauncherWrapper.execute(CommandLauncherManager.java:146)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.core.ExternalBuildRunner.invokeExternalBuild(ExternalBuildRunner.java:140)
+	at org.eclipse.cdt.managedbuilder.core.ExternalBuildRunner.invokeBuild(ExternalBuildRunner.java:73)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:779)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:529)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:471)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:615)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:507)
+	at com.st.stm32cube.ide.mcu.debug.launch.oss.ui.DebugLaunchShortcut$2.run(DebugLaunchShortcut.java:260)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-10-01 10:29:31.613
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-10-01 10:29:34.577
+!MESSAGE Error: Cannot run program "make": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "make": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:458)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:147)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:134)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory$Builder.start(ProcessFactory.java:275)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:361)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:189)
+	at org.eclipse.cdt.core.CommandLauncherManager$CommandLauncherWrapper.execute(CommandLauncherManager.java:146)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.core.ExternalBuildRunner.invokeExternalBuild(ExternalBuildRunner.java:140)
+	at org.eclipse.cdt.managedbuilder.core.ExternalBuildRunner.invokeBuild(ExternalBuildRunner.java:73)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:779)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:526)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:471)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:615)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:507)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:290)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
