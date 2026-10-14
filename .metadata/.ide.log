@@ -1,5 +1,59 @@
-2026-10-01 10:23:57,575 [INFO] Activator:177 - 
+2026-10-09 13:46:47,051 [INFO] Activator:177 - 
 
 
-2026-10-01 10:23:57,575 [INFO] Activator:178 - !SESSION log4j initialized
-2026-10-01 10:24:01,168 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-10-09 13:46:47,060 [INFO] Activator:178 - !SESSION log4j initialized
+2026-10-09 13:46:51,585 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-10-09 13:48:39,450 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 13:49:08,374 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 13:49:14,726 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-10-09 13:49:14,727 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-10-09 13:49:14,727 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-10-09 13:49:14,727 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-10-09 13:49:14,727 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2026-10-09 14:05:28,131 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:06:05,628 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:06:32,385 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:10:46,973 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:13:46,157 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:14:22,971 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:14:52,489 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:15:58,869 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:16:06,030 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:16:11,984 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:16:43,689 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:16:49,680 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:17:20,234 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:17:52,468 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:18:44,585 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:19:10,421 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:20:38,298 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:21:19,607 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:21:49,034 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:23:12,879 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:23:39,859 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:24:37,832 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:24:53,168 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:25:12,718 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:25:50,551 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:27:02,457 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:28:43,103 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:29:42,160 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:31:19,232 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:38:34,038 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:38:38,624 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:39:45,657 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:41:25,695 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:43:04,314 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:47:03,619 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:50:07,667 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:51:17,732 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 14:57:24,159 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 15:00:43,654 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 15:00:55,516 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 15:01:39,095 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 15:01:45,384 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 15:01:52,929 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 15:02:20,107 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 15:02:47,192 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 15:04:50,284 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-09 15:05:32,505 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug

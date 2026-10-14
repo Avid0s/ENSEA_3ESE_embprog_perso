@@ -1,0 +1,7 @@
+Jeu bidule
+Bop it avec boutons du bidule
+
+action à faire, timer de 3s et compteur score sur ecran
+
+compteur high score?
+

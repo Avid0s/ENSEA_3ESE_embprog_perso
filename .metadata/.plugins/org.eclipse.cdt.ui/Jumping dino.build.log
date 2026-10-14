@@ -1,0 +1,10 @@
+15:05:32 **** Incremental Build of configuration Debug for project Jumping dino ****
+cmake --build "build\\Debug" 
+[1/2] Building C object CMakeFiles/bidule.dir/app/runner/dino.c.obj
+[2/2] Linking C executable bidule.elf
+Memory region         Used Size  Region Size  %age Used
+             RAM:        3920 B        32 KB     11.96%
+           FLASH:       41256 B       128 KB     31.48%
+
+15:05:33 Build Finished. 0 errors, 0 warnings. (took 558ms)
+
