@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+runner\:Debug/build=build\\Debug
+runner\:Debug/cmake_build_type=Debug
+runner\:Debug/cmake_export_compile_commands=
+runner\:Debug/cmake_preset=Debug
+runner\:Debug/cmake_toolchain_file=cmake\\gcc-arm-none-eabi.cmake
+runner\:Debug/generator=Ninja
+runner\:Debug/misc_command=
+runner\:Debug/src=C\:\\Users\\gjvid\\Documents\\GitHub\\ENSEA_3ESE_embprog_perso\\embprog\\td\\td7

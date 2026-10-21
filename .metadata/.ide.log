@@ -1,0 +1,7 @@
+2026-10-17 14:57:53,298 [INFO] Activator:177 - 
+
+
+2026-10-17 14:57:53,300 [INFO] Activator:178 - !SESSION log4j initialized
+2026-10-17 14:57:57,820 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-10-17 15:27:43,042 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug
+2026-10-17 15:27:55,057 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Updating builder args for config Debug to buildDir=build\Debug

@@ -1,0 +1,62 @@
+15:27:47 **** Build of configuration Debug for project runner ****
+cmake --build "build\\Debug" 
+[1/54] Building ASM object CMakeFiles/bidule.dir/startup_stm32g431xx.s.obj
+[2/54] Building C object CMakeFiles/bidule.dir/bsp/debounce.c.obj
+[3/54] Building C object CMakeFiles/bidule.dir/app/menu.c.obj
+[4/54] Building C object CMakeFiles/bidule.dir/app/events.c.obj
+[5/54] Building C object CMakeFiles/bidule.dir/app/menu_entry/time_bomb_launch_entry.c.obj
+[6/54] Building C object CMakeFiles/bidule.dir/app/timers.c.obj
+[7/54] Building C object CMakeFiles/bidule.dir/app/menu_entry/screen_switch_entry.c.obj
+[8/54] Building C object CMakeFiles/bidule.dir/Core/Src/sysmem.c.obj
+[9/54] Building C object CMakeFiles/bidule.dir/app/menu_entry/menu_entry.c.obj
+[10/54] Building C object CMakeFiles/bidule.dir/app/menu_entry/runner_launch_entry.c.obj
+[11/54] Building C object CMakeFiles/bidule.dir/app/menu_entry/led_toggle_entry.c.obj
+[12/54] Building C object CMakeFiles/bidule.dir/app/menu_entry/hsv_component_entry.c.obj
+[13/54] Building C object CMakeFiles/bidule.dir/app/app.c.obj
+[14/54] Building C object CMakeFiles/bidule.dir/app/time_bomb.c.obj
+[15/54] Building C object CMakeFiles/bidule.dir/app/runner/dino.c.obj
+[16/54] Building C object CMakeFiles/bidule.dir/app/runner/obstacle.c.obj
+[17/54] Building C object CMakeFiles/bidule.dir/app/runner/runner.c.obj
+[18/54] Building C object CMakeFiles/bidule.dir/Core/Src/syscalls.c.obj
+[19/54] Building C object CMakeFiles/bidule.dir/Core/Src/i2c.c.obj
+[20/54] Building C object CMakeFiles/bidule.dir/Core/Src/usart.c.obj
+[21/54] Building C object CMakeFiles/bidule.dir/Core/Src/tim.c.obj
+[22/54] Building C object CMakeFiles/bidule.dir/Core/Src/stm32g4xx_hal_msp.c.obj
+[23/54] Building C object CMakeFiles/bidule.dir/Drivers/drv_bidule/neopixel.c.obj
+[24/54] Building C object CMakeFiles/bidule.dir/Core/Src/stm32g4xx_it.c.obj
+[25/54] Building C object CMakeFiles/bidule.dir/Core/Src/dma.c.obj
+[26/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c.obj
+[27/54] Building C object CMakeFiles/bidule.dir/Core/Src/gpio.c.obj
+[28/54] Building C object CMakeFiles/bidule.dir/Core/Src/main.c.obj
+[29/54] Building C object CMakeFiles/bidule.dir/bsp/bsp.c.obj
+[30/54] Building C object CMakeFiles/bidule.dir/Core/Src/spi.c.obj
+[31/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.obj
+[32/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+[33/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+[34/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+[35/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+[36/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+[37/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+[38/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
+[39/54] Building C object CMakeFiles/bidule.dir/Drivers/drv_bidule/ssd1306/ssd1306_fonts.c.obj
+[40/54] Building C object CMakeFiles/bidule.dir/Drivers/drv_bidule/ssd1306/ssd1306.c.obj
+[41/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c.obj
+[42/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
+[43/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+[44/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
+[45/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
+[46/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj
+[47/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
+[48/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+[49/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+[50/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj
+[51/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj
+[52/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
+[53/54] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj
+[54/54] Linking C executable bidule.elf
+Memory region         Used Size  Region Size  %age Used
+             RAM:        3912 B        32 KB     11.94%
+           FLASH:       40928 B       128 KB     31.23%
+15:27:55 **** Incremental Build of configuration Debug for project runner ****
+cmake --build "build\\Debug" 
+ninja: no work to do.
